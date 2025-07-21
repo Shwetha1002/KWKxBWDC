@@ -17,9 +17,9 @@
 <style>
     .wrapper {
         background-color: #f7f5eb;
-        padding: min(100vh, 30rem) 1rem;
+        padding: min(30vh, 30rem) 1rem;
         border-style: solid;
-        border-color: #4096fa;
+        border-color: #f7f5eb;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -77,7 +77,7 @@
         }
 
         .sticky {
-            margin-bottom: 2rem;
+            margin-bottom: 0.01rem;
         }
     }
 </style>
