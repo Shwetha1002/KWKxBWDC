@@ -14,10 +14,10 @@
             const elem = entry.target;
 
             if (entry.intersectionRatio >= 0.9) {
-                // "active" state
+                
                 elem.style.backgroundColor = "#e3ff00";
             } else if (entry.intersectionRatio < 0.9) {
-                // "inactive" state
+               
                 elem.style.backgroundColor = "#888888";
             }
         });
@@ -27,7 +27,7 @@
         entries.forEach((entry) => {
             const elem = entry.target;
             if (entry.intersectionRatio >= 0.9 && !hasAlerted) {
-                // "active" state
+                
                 alert(
                     "The first time that article text section scrolls into view," +
                         " this alert pops up! Then, we set the hasAlerted flag to true," +

@@ -3,12 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://jasminesamra.github.io/kwk-scrollytelling-template",
+  "homepage": "https://Shwetha1002.github.io/KWKxBWDC",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "deploy": "npm run build && gh-pages -d dist",
+    "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
     "preview": "vite preview"
+    
   },
   "devDependencies": {
     "@highcharts/svelte": "^1.1.1",

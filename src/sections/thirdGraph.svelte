@@ -14,16 +14,15 @@
            xAxis: {
             type: "datetime",
         title: {
-            text: "Dates"   // X-axis label
-        }
+            text: "Dates"  
     },
     yAxis: {
         title: {
-            text: "Poverty Percentage (%)"   // Y-axis label
+            text: "Poverty Percentage (%)"   
         }
     },
     tooltip: {
-        valueSuffix: " % ",    // Optional: shows unit in tooltip (e.g., 45 m)
+        valueSuffix: " % ",   
         shared: true
     },
         plotOptions: {
