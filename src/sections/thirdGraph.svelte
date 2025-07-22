@@ -14,7 +14,8 @@
            xAxis: {
             type: "datetime",
         title: {
-            text: "Dates"  
+            text: "Dates"   
+        }
     },
     yAxis: {
         title: {
@@ -22,7 +23,7 @@
         }
     },
     tooltip: {
-        valueSuffix: " % ",   
+        valueSuffix: " % ",    
         shared: true
     },
         plotOptions: {
